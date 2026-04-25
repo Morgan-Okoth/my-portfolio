@@ -1,0 +1,26 @@
+{
+  "name": "morgan-okoth-portfolio",
+  "version": "1.0.0",
+  "description": "Backend developer portfolio for Morgan Okoth",
+  "agents": {
+    "default": "general",
+    "review": "code-reviewer"
+  },
+  "commands": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "npx serve . -l 3000",
+    "lint": "echo 'No linter configured' && exit 0",
+    "typecheck": "echo 'No typecheck configured' && exit 0"
+  },
+  "paths": {
+    "config": ".kilo",
+    "agents": ".kilo/agent",
+    "commands": ".kilo/command",
+    "skills": ".kilo/skill"
+  },
+  "deployment": {
+    "targets": ["railway", "vercel", "github-pages"],
+    "default": "github-pages"
+  }
+}
