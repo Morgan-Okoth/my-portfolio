@@ -11,7 +11,14 @@
     "lint": "echo \"No linter configured\" && exit 0",
     "typecheck": "echo \"No typecheck configured\" && exit 0"
   },
-  "keywords": ["portfolio", "backend", "developer"],
+  "keywords": [
+    "portfolio",
+    "backend",
+    "developer"
+  ],
   "author": "Morgan Okoth",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^8.0.10"
+  }
 }
